@@ -33,6 +33,7 @@ class Solution:
         array += str2.split(" ")
         list = []
         for x in array:
+            x = x.replace("\r", "")
             if not x in list:
                 list.append(x)
         # type str1:string
