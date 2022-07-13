@@ -34,7 +34,7 @@ class Solution:
         list = []
         for x in array:
             x = x.replace("\r", "")
-            if not x in list:
+            if not x in list and not x is "":
                 list.append(x)
         # type str1:string
         # type str2: string
